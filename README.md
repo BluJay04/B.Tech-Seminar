@@ -1,2 +1,4 @@
-# B.Tech-Seminar
-Materials for my B.Tech Final Year Seminar Topic: “Solving the Navier–Stokes Equations with Physics-Informed Neural Networks”
+# Physics-Informed Neural Networks for Hypersonic Flow Reconstruction
+Turbulence remains the "last unsolved problem of classical physics", presenting a computational bottleneck that limits everything from hypersonic flight to climate modeling. Traditional Computational Fluid Dynamics (CFD) addresses this by discretizing space into massive grids, a brute-force approach that scales poorly with complexity and fails entirely in data-sparse environments. This project introduces a meshless alternative: Physics-Informed Neural Networks (PINNs).
+
+By embedding the Navier-Stokes equations directly into the loss function of a deep neural network, we transform fluid simulation from a grid-based calculation into a continuous optimization problem. We demonstrate that this architecture can reconstruct high Reynolds number flows and shockwaves from sparse observations alone, effectively "hallucinating" the missing physics without the computational cost of a supercomputer.
